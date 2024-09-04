@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Lanjutan</title>
+    <style>
+      /* Variabel CSS */
+      :root {
+        --main-color: #4caf50;
+        --text-color: #333;
+        --border-radius: 10px;
+      }
+
+      /* Menentukan tampilan elemen dengan border-radius */
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: var(--main-color);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        margin: 20px 0;
+      }
+
+      /* Properti display */
+      .inline-box {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: #ff5722;
+        margin-right: 10px;
+      }
+
+      .hidden-box {
+        display: none;
+      }
+
+      /* CSS Pseudo-class */
+      .box:hover {
+        background-color: #8bc34a;
+      }
+
+      .box:active {
+        background-color: #388e3c;
+      }
+
+      .input-field:focus {
+        border-color: var(--main-color);
+      }
+
+      /* Menggunakan media query untuk responsivitas */
+      @media (max-width: 768px) {
+        .box {
+          width: 100%;
+          height: 150px;
+        }
+
+        .inline-box {
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      /* Contoh penggunaan spesifisitas dan komentar CSS */
+      .text {
+        color: var(--text-color);
+        font-size: 16px;
+      }
+
+      .important-text {
+        color: yellow !important; /* Spesifisitas tinggi dengan !important */
+      }
+
+      /* Menambahkan komentar pada CSS */
+      /* Ini adalah komentar CSS */
+    </style>
+  </head>
+  <body>
+    <h1>CSS Lanjutan</h1>
+
+    <!-- Contoh penggunaan border-radius dan overflow -->
+    <div class="box">Contoh Box</div>
+
+    <!-- Contoh penggunaan display -->
+    <div class="inline-box">Box 1</div>
+    <div class="inline-box">Box 2</div>
+    <div class="hidden-box">Ini tidak terlihat</div>
+
+    <!-- Contoh penggunaan pseudo-class -->
+    <input type="text" class="input-field" placeholder="Fokus di sini" />
+
+    <!-- Contoh teks dengan spesifisitas -->
+    <p class="text">Ini adalah contoh teks biasa.</p>
+    <p class="text important-text">
+      Ini adalah contoh teks dengan spesifisitas tinggi.
+    </p>
+  </body>
+</html>
