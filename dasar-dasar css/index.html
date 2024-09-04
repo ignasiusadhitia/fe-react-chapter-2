@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dasar-dasar CSS</title>
+    <!--Ekternal CSS-->
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+
+    <!--Internal CSS-->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #4caf50;
+      }
+
+      .box1 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+
+      .box2 {
+        width: 50%;
+        height: 50%;
+        background-color: blue;
+      }
+
+      .box3 {
+        width: 100vh;
+        height: 100vh;
+        background-color: green;
+      }
+
+      .text {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.5;
+      }
+
+      .image-container {
+        background-image: url("assets/kucing.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+      }
+
+      .content-box {
+        padding: 10px;
+        border: 2px solid #000;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dasar-dasar CSS</h1>
+
+    <p>
+      CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mengatur
+      tampilan dan layout halaman web.
+    </p>
+
+    <!-- Contoh Box Model -->
+    <div class="content-box">
+      <p>Ini adalah contoh box dengan padding, border, dan margin.</p>
+    </div>
+
+    <!-- Contoh Dimensi -->
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+    <!-- Contoh Gaya Teks -->
+    <p class="text">
+      Ini adalah contoh teks yang telah diberi gaya dengan CSS.
+    </p>
+
+    <!-- Contoh Background Image -->
+    <div class="image-container"></div>
+  </body>
+</html>

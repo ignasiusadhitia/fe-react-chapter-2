@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #4caf50;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box2 {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+.box3 {
+    width: 100vh;
+    height: 100vh;
+    background-color: green;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.image-container {
+    background-image: url("assets/kucing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+}
+
+.content-box {
+    padding: 10px;
+    border: 2px solid #000;
+    margin: 20px 0;
+}
