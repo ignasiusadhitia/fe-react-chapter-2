@@ -1,76 +1,43 @@
 # Contoh Formulir HTML
 
 ## Penjelasan Kode
-
-1. `<!DOCTYPE html>`:
-
-   - Deklarasi doctype untuk memberitahu browser bahwa dokumen ini menggunakan HTML5.
-
-2. `<html lang="id">`:
-
-   - Tag pembuka untuk dokumen HTML, dengan atribut `lang="id"` yang menetapkan bahasa dokumen sebagai Bahasa Indonesia.
-
-3. `<head>`:
-
-   - Bagian `<head>` berisi meta informasi tentang dokumen HTML.
-
-4. `<meta charset="UTF-8">`:
-
-   - Tag meta ini menetapkan encoding karakter UTF-8 untuk mendukung berbagai karakter dari banyak bahasa.
-
-5. `<meta name="viewport" content="width=device-width, initial-scale=1.0">`:
-
-   - Tag meta ini mengatur viewport agar halaman web responsif pada berbagai ukuran layar.
-
-6. `<title>Contoh Formulir HTML</title>`:
-
-   - Tag `<title>` menentukan judul halaman yang akan ditampilkan pada tab browser.
-
-7. `</head>`:
-
-   - Penutup tag `<head>`.
-
-8. `<body>`:
-
-   - Bagian `<body>` berisi semua konten yang akan ditampilkan di browser.
-
-9. `<h1>Formulir Pendaftaran</h1>`:
+1. `<h1>Formulir Pendaftaran</h1>`:
 
    - Elemen heading utama untuk judul halaman formulir.
 
-10. `<form action="/submit-form" method="post">`:
+2. `<form action="/submit-form" method="post">`:
 
     - Elemen `<form>` digunakan untuk membungkus semua elemen input dan menentukan URL tujuan dengan atribut `action` serta metode pengiriman data dengan atribut `method`.
 
-11. `<label for="nama">Nama:</label>` dan `<input type="text" id="nama" name="nama">`:
+3. `<label for="nama">Nama:</label>` dan `<input type="text" id="nama" name="nama">`:
 
     - Elemen label digunakan untuk memberikan keterangan pada input, sementara elemen input dengan tipe `text` digunakan untuk menerima teks singkat dari pengguna.
 
-12. `<label for="email">Email:</label>` dan `<input type="email" id="email" name="email">`:
+4. `<label for="email">Email:</label>` dan `<input type="email" id="email" name="email">`:
 
     - Elemen input dengan tipe `email` digunakan untuk menerima alamat email pengguna.
 
-13. `<label for="password">Kata Sandi:</label>` dan `<input type="password" id="password" name="password">`:
+5. `<label for="password">Kata Sandi:</label>` dan `<input type="password" id="password" name="password">`:
 
     - Elemen input dengan tipe `password` digunakan untuk menerima kata sandi yang tidak akan terlihat saat diketik.
 
-14. `<label for="pesan">Pesan:</label>` dan `<textarea id="pesan" name="pesan"></textarea>`:
+6. `<label for="pesan">Pesan:</label>` dan `<textarea id="pesan" name="pesan"></textarea>`:
 
     - Elemen textarea digunakan untuk menerima teks panjang seperti pesan atau deskripsi.
 
-15. `<p>Jenis Kelamin:</p>`, `<label for="male">Laki-Laki</label>`, `<input type="radio" id="male" name="gender" value="male">`, dll.:
+7. `<p>Jenis Kelamin:</p>`, `<label for="male">Laki-Laki</label>`, `<input type="radio" id="male" name="gender" value="male">`, dll.:
 
     - Elemen radio button digunakan untuk memungkinkan pengguna memilih satu opsi dari beberapa pilihan.
 
-16. `<p>Hobi:</p>`, `<label for="hobi1">Olahraga</label>`, `<input type="checkbox" id="hobi1" name="hobi" value="olahraga">`, dll.:
+8. `<p>Hobi:</p>`, `<label for="hobi1">Olahraga</label>`, `<input type="checkbox" id="hobi1" name="hobi" value="olahraga">`, dll.:
 
     - Elemen checkbox digunakan untuk memungkinkan pengguna memilih satu atau lebih opsi dari beberapa pilihan.
 
-17. `<label for="kota">Pilih Kota:</label>` dan `<select id="kota" name="kota">`, `<option value="jakarta">Kota Jakarta</option>`:
+9. `<label for="kota">Pilih Kota:</label>` dan `<select id="kota" name="kota">`, `<option value="jakarta">Kota Jakarta</option>`:
 
     - Elemen dropdown (select) digunakan untuk memungkinkan pengguna memilih satu opsi dari daftar pilihan yang tersedia.
 
-18. `<button type="submit">Kirim</button>`:
+10. `<button type="submit">Kirim</button>`:
     - Tombol yang digunakan untuk mengirim data yang telah diisi dalam formulir ke URL yang ditentukan dalam atribut `action` dari elemen `<form>`.
 
 ## Kesimpulan
